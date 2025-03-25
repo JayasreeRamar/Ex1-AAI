@@ -23,7 +23,7 @@ Step 13:Generate the graph using networkx<br/>
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-''' 
+```
 import networkx as nx
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -101,7 +101,7 @@ print(probs(df, child='Humidity9amCat'))
 print(probs(df, child='Humidity3pmCat', parent1='Humidity9amCat'))
 print(probs(df, child='WindGustSpeedCat'))
 print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
-'''
+```
 ## Output:
 ![alt text](<Screenshot 2025-03-25 100611.png>)
 ![alt text](<Screenshot 2025-03-25 100623.png>)
